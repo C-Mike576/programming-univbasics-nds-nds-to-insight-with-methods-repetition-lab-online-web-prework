@@ -53,18 +53,9 @@ def total_gross(source)
   
   while index_count < director_array.length do
     grand_total += total_hash[:director_array[index_count]]
-    index_count +=
+    index_count += 1
+  end
   
-
-
-
-
-
-
-
-
-
-
 end
 
 
