@@ -55,7 +55,7 @@ def total_gross(source)
     grand_total += total_hash[:director_array[index_count]]
     index_count += 1
   end
-  
+  p grand_total
 end
 
 
