@@ -52,7 +52,7 @@ def total_gross(source)
   grand_total = 0
   
   while index_count < director_array.length do
-    grand_total += total_hash[:director_array[index_count]]
+    grand_total += total_hash[director_array[index_count]]
     index_count += 1
   end
   p grand_total
